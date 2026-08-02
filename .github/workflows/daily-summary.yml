@@ -2,8 +2,8 @@ name: Horizon AI News Radar
 
 on:
   schedule:
-    # 00:00 UTC = 08:00 Asia/Shanghai
-    - cron: "0 0 * * *"
+    # 02:35 UTC = 10:35 Asia/Shanghai
+    - cron: "35 2 * * *"
   workflow_dispatch:
 
 concurrency:
